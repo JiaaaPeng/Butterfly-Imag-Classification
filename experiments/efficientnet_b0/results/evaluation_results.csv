@@ -1,0 +1,2 @@
+model,valid_loss,valid_acc
+EfficientNet-B0,0.3566250612474978,0.924

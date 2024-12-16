@@ -1,0 +1,26 @@
+# configs/mobilenet_v3_large_config.yaml
+
+model:
+  type: MobileNetV3-Large
+  pretrained: True  # 使用预训练权重
+  num_classes: 100
+
+training:
+  batch_size: 8
+  num_epochs: 100
+  learning_rate: 0.001
+  patience: 10
+  step_size: 7
+  gamma: 0.1
+
+data:
+  train_dir: '../../data/train'
+  valid_dir: '../../data/valid'
+  test_dir: '../../data/test'
+  num_workers: 0
+
+output:
+  checkpoints_dir: '../../experiments/mobilenet_v3_large/checkpoints'
+  logs_dir: '../../experiments/mobilenet_v3_large/logs'
+  results_dir: '../../experiments/mobilenet_v3_large/results'
+  csv_path: '../../experiments/mobilenet_v3_large/results/metrics.csv'

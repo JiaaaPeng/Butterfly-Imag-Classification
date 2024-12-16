@@ -1,0 +1,2 @@
+model,valid_loss,valid_acc
+ResNet-50,0.26773756652511654,0.932

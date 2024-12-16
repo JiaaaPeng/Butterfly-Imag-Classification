@@ -1,0 +1,2 @@
+model,valid_loss,valid_acc
+MobileNetV3-Large,0.3520733211128836,0.924

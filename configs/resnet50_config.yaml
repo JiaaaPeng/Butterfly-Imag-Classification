@@ -1,0 +1,26 @@
+# configs/resnet50_config.yaml
+
+model:
+  type: ResNet-50
+  pretrained: True  # 使用预训练权重
+  num_classes: 100
+
+training:
+  batch_size: 8
+  num_epochs: 100
+  learning_rate: 0.001
+  patience: 10
+  step_size: 7
+  gamma: 0.1
+
+data:
+  train_dir: '../../data/train'
+  valid_dir: '../../data/valid'
+  test_dir: '../../data/test'
+  num_workers: 0
+
+output:
+  checkpoints_dir: '../../experiments/resnet50/checkpoints'
+  logs_dir: '../../experiments/resnet50/logs'
+  results_dir: '../../experiments/resnet50/results'
+  csv_path: '../../experiments/resnet50/results/metrics.csv'
