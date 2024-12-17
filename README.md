@@ -2,6 +2,8 @@
 
 ## 项目概述
 
-本项目旨在使用 PyTorch 训练三个不同的图像分类模型（EfficientNet-B0、MobileNetV3-Large 和 ResNet-50），并通过集成学习方法结合这三个模型的预测结果，以实现对蝴蝶和飞蛾100个物种的图像分类任务。
+本项目旨在使用 PyTorch 训练三个不同的图像分类模型（EfficientNet-B0、MobileNetV3-Large 和 ResNet-50）,以实现对蝴蝶和飞蛾100个物种的图像分类任务。
 
-## 目录结构
+## 数据来源
+数据来自于Kaggle公开数据集[Butterfly & Moths Image Classification 100 species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)
+![](https://storage.googleapis.com/kaggle-datasets-images/456014/2387086/f53e5f904de85a8d8d1fd0fe603d8889/dataset-cover.jpg?t=2021-07-01-22-44-44)
