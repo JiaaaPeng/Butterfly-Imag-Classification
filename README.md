@@ -6,4 +6,5 @@
 
 ## 数据来源
 数据来自于Kaggle公开数据集[Butterfly & Moths Image Classification 100 species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)
-![](https://storage.googleapis.com/kaggle-datasets-images/456014/2387086/f53e5f904de85a8d8d1fd0fe603d8889/dataset-cover.jpg?t=2021-07-01-22-44-44)
+
+![](dataset-cover.jpg)
